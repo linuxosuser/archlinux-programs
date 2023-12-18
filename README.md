@@ -1,4 +1,4 @@
-# archlinux
+# Műveletek
 
 git clone https://github.com/linuxosuser/archlinux.git
 
