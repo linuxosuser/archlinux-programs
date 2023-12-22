@@ -1,20 +1,5 @@
 #!/bin/bash
 
-sudo pacman -S --needed lib32-libpulse --noconfirm
-sudo pacman -S --needed alsa-plugins --noconfirm
-sudo pacman -S --needed lib32-alsa-plugins --noconfirm
-sudo pacman -S --needed alsa-lib --noconfirm
-sudo pacman -S --needed lib32-alsa-lib --noconfirm
-sudo pacman -S --needed alsa-firmware --noconfirm
-sudo pacman -S --needed gst-plugins-bad --noconfirm
-sudo pacman -S --needed gst-plugins-base --noconfirm
-sudo pacman -S --needed lib32-gst-plugins-base --noconfirm
-sudo pacman -S --needed lib32-gst-plugins-base-libs --noconfirm
-sudo pacman -S --needed gst-plugins-ugly --noconfirm
-sudo pacman -S --needed gstreamer --noconfirm
-sudo pacman -S --needed lib32-gstreamer --noconfirm
-sudo pacman -S --needed gstreamer-vaapi --noconfirm
-sudo pacman -S --needed pavucontrol --noconfirm
 sudo pacman -S --needed qbittorrent --noconfirm
 sudo pacman -S --needed rhythmbox --noconfirm
 sudo pacman -S --needed smplayer --noconfirm
