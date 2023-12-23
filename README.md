@@ -1,6 +1,6 @@
 # Műveletek
 
-git clone https://github.com/linuxosuser/archlinux.git
+git clone https://github.com/linuxosuser/archlinux-scripts.git
 
 cd archlinux-scripts
 
