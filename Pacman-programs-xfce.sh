@@ -64,7 +64,7 @@ sudo pacman -S --needed mesa-utils --noconfirm
 sudo pacman -S --needed lib32-mesa-utils --noconfirm
 sudo pacman -S --needed inxi --noconfirm
 
-echo 'nyomtató és hálózat felderítés telepítése'
+echo 'nyomtató, szkenner és avahi telepítése'
 
 sudo pacman -S --needed cups --noconfirm
 sudo pacman -S --needed cups-pdf --noconfirm
