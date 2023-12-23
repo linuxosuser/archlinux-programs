@@ -117,4 +117,4 @@ sudo pacman -S --needed tlp --noconfirm
 sudo systemctl start tlp.service
 sudo systemctl enable tlp.service
 
-echo 'A TELEPÍTÉS BEFEJEZŐDÖTT, KÉREM, HOGY INDÍTSA ÚJRA AZ OPERÁCIÓS RENDSZERÉT!'
+echo 'A TELEPÍTÉS BEFEJEZŐDÖTT, KÉREM, HOGY INDÍTSA ÚJRA SZÁMÍTÓGÉPÉT/LAPTOPJÁT!'
