@@ -3,6 +3,7 @@
 sudo pacman -S --needed pulseaudio --noconfirm
 sudo pacman -S --needed pulseaudio-alsa --noconfirm
 sudo pacman -S --needed pulseaudio-jack --noconfirm
+sudo pacman -S --needed libpulse --noconfirm
 sudo pacman -S --needed lib32-libpulse --noconfirm
 sudo pacman -S --needed alsa-utils --noconfirm
 sudo pacman -S --needed alsa-plugins --noconfirm
@@ -14,6 +15,7 @@ sudo pacman -S --needed gst-plugins-good --noconfirm
 sudo pacman -S --needed lib32-gst-plugins-good --noconfirm
 sudo pacman -S --needed gst-plugins-bad --noconfirm
 sudo pacman -S --needed gst-plugins-base --noconfirm
+sudo pacman -S --needed gst-plugins-base-libs --noconfirm
 sudo pacman -S --needed lib32-gst-plugins-base --noconfirm
 sudo pacman -S --needed lib32-gst-plugins-base-libs --noconfirm
 sudo pacman -S --needed gst-plugins-ugly --noconfirm
