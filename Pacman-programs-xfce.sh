@@ -1,11 +1,32 @@
 #!/bin/bash
 
+sudo pacman -S --needed pulseaudio --noconfirm
+sudo pacman -S --needed pulseaudio-alsa --noconfirm
+sudo pacman -S --needed pulseaudio-jack --noconfirm
+sudo pacman -S --needed lib32-libpulse --noconfirm
+sudo pacman -S --needed alsa-utils --noconfirm
+sudo pacman -S --needed alsa-plugins --noconfirm
+sudo pacman -S --needed lib32-alsa-plugins --noconfirm
+sudo pacman -S --needed alsa-lib --noconfirm
+sudo pacman -S --needed lib32-alsa-lib --noconfirm
+sudo pacman -S --needed alsa-firmware --noconfirm
+sudo pacman -S --needed gst-plugins-good --noconfirm
+sudo pacman -S --needed lib32-gst-plugins-good --noconfirm
+sudo pacman -S --needed gst-plugins-bad --noconfirm
+sudo pacman -S --needed gst-plugins-base --noconfirm
+sudo pacman -S --needed lib32-gst-plugins-base --noconfirm
+sudo pacman -S --needed lib32-gst-plugins-base-libs --noconfirm
+sudo pacman -S --needed gst-plugins-ugly --noconfirm
+sudo pacman -S --needed gstreamer --noconfirm
+sudo pacman -S --needed lib32-gstreamer --noconfirm
+sudo pacman -S --needed gstreamer-vaapi --noconfirm
+sudo pacman -S --needed pavucontrol --noconfirm
 sudo pacman -S --needed qbittorrent --noconfirm
 sudo pacman -S --needed rhythmbox --noconfirm
 sudo pacman -S --needed smplayer --noconfirm
 sudo pacman -S --needed cheese --noconfirm
 sudo pacman -S --needed evince --noconfirm
-sudo pacman -S --needed ristretto --noconfirm
+sudo pacman -S --needed shotwell --noconfirm
 sudo pacman -S --needed gimp --noconfirm
 sudo pacman -S --needed gimp-help-hu --noconfirm
 sudo pacman -S --needed lm_sensors --noconfirm
@@ -14,7 +35,8 @@ sudo pacman -S --needed stress --noconfirm
 sudo pacman -S --needed glmark2 --noconfirm
 sudo pacman -S --needed gnome-calculator --noconfirm
 sudo pacman -S --needed gnome-disk-utility --noconfirm
-sudo pacman -S --needed mousepad --noconfirm
+sudo pacman -S --needed gedit --noconfirm
+sudo pacman -S --needed gedit-plugins --noconfirm
 sudo pacman -S --needed jre8-openjdk --noconfirm
 sudo pacman -S --needed jdk8-openjdk --noconfirm
 sudo pacman -S --needed p7zip --noconfirm
