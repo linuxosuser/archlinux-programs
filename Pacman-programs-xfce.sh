@@ -26,7 +26,7 @@ sudo pacman -S --needed lib32-gstreamer --noconfirm
 sudo pacman -S --needed gstreamer-vaapi --noconfirm
 sudo pacman -S --needed pavucontrol --noconfirm
 
-echo 'Programok telepítése'
+echo 'Programok telepítése tömörítők kiegészítésével'
 
 sudo pacman -S --needed qbittorrent --noconfirm
 sudo pacman -S --needed rhythmbox --noconfirm
@@ -64,7 +64,7 @@ sudo pacman -S --needed mesa-utils --noconfirm
 sudo pacman -S --needed lib32-mesa-utils --noconfirm
 sudo pacman -S --needed inxi --noconfirm
 
-echo 'nyomtató, szkenner és avahi telepítése'
+echo 'Nyomtató, szkenner és avahi telepítése'
 
 sudo pacman -S --needed cups --noconfirm
 sudo pacman -S --needed cups-pdf --noconfirm
