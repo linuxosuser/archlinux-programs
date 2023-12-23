@@ -12,3 +12,5 @@ sudo pacman -S --needed libva-mesa-driver --noconfirm
 sudo pacman -S --needed lib32-libva-mesa-driver --noconfirm
 sudo pacman -S --needed mesa-vdpau --noconfirm
 sudo pacman -S --needed lib32-mesa-vdpau --noconfirm
+
+echo 'A TELEPÍTÉS BEFEJEZŐDÖTT, KÉREM, HOGY INDÍTSA ÚJRA SZÁMÍTÓGÉPÉT/LAPTOPJÁT!'
