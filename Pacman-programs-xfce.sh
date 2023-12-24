@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo 'Hang: PulseAudio hangrendszer telepítése'
-
 sudo pacman -S --needed pulseaudio --noconfirm
 sudo pacman -S --needed pulseaudio-alsa --noconfirm
 sudo pacman -S --needed pulseaudio-jack --noconfirm
@@ -25,9 +23,6 @@ sudo pacman -S --needed gstreamer --noconfirm
 sudo pacman -S --needed lib32-gstreamer --noconfirm
 sudo pacman -S --needed gstreamer-vaapi --noconfirm
 sudo pacman -S --needed pavucontrol --noconfirm
-
-echo 'Programok telepítése tömörítők kiegészítésével'
-
 sudo pacman -S --needed qbittorrent --noconfirm
 sudo pacman -S --needed rhythmbox --noconfirm
 sudo pacman -S --needed smplayer --noconfirm
@@ -63,9 +58,6 @@ sudo pacman -S --needed dmidecode --noconfirm
 sudo pacman -S --needed mesa-utils --noconfirm
 sudo pacman -S --needed lib32-mesa-utils --noconfirm
 sudo pacman -S --needed inxi --noconfirm
-
-echo 'Nyomtató, szkenner és avahi telepítése'
-
 sudo pacman -S --needed cups --noconfirm
 sudo pacman -S --needed cups-pdf --noconfirm
 sudo pacman -S --needed ghostscript --noconfirm
@@ -82,9 +74,6 @@ sudo pacman -S --needed nss-mdns --noconfirm
 sudo pacman -S --needed gvfs-smb --noconfirm
 sudo systemctl start avahi-daemon.service
 sudo systemctl enable avahi-daemon.service
-
-echo 'Betűtípusok, téma, ikon téma, egérkurzor és háttérkép telepítése'
-
 sudo pacman -S --needed adobe-source-sans-fonts --noconfirm
 sudo pacman -S --needed cantarell-fonts --noconfirm
 sudo pacman -S --needed noto-fonts --noconfirm
@@ -100,9 +89,6 @@ sudo pacman -S --needed arc-gtk-theme --noconfirm
 sudo pacman -S --needed arc-icon-theme --noconfirm
 sudo pacman -S --needed capitaine-cursors --noconfirm
 sudo pacman -S --needed archlinux-wallpaper --noconfirm
-
-echo 'Bluetooth telepítése'
-
 sudo pacman -S --needed bluez --noconfirm
 sudo pacman -S --needed bluez-libs --noconfirm
 sudo pacman -S --needed bluez-utils --noconfirm
@@ -110,11 +96,8 @@ sudo pacman -S --needed blueman --noconfirm
 sudo sed -i 's/#AutoEnable=true/AutoEnable=true/' /etc/bluetooth/main.conf
 sudo systemctl start bluetooth.service
 sudo systemctl enable bluetooth.service
-
-echo 'tlp telepítése laptopokhoz'
-
 sudo pacman -S --needed tlp --noconfirm
 sudo systemctl start tlp.service
 sudo systemctl enable tlp.service
 
-echo 'A TELEPÍTÉS BEFEJEZŐDÖTT, KÉREM, HOGY INDÍTSA ÚJRA SZÁMÍTÓGÉPÉT/LAPTOPJÁT!'
+echo 'A TELEPÍTÉS BEFEJEZŐDÖTT, KÉREM, HOGY INDÍTSA ÚJRA SZÁMÍTÓGÉPÉT!'
