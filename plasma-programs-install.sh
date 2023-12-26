@@ -89,6 +89,7 @@ sudo pacman -S --needed mesa-utils --noconfirm
 sudo pacman -S --needed lib32-mesa-utils --noconfirm
 sudo pacman -S --needed inxi --noconfirm
 sudo pacman -S --needed cups --noconfirm
+sudo pacman -S --needed print-manager --noconfirm
 sudo pacman -S --needed cups-pdf --noconfirm
 sudo pacman -S --needed ghostscript --noconfirm
 sudo pacman -S --needed gsfonts --noconfirm
