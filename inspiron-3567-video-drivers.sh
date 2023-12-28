@@ -11,4 +11,4 @@ sudo pacman -S --needed lib32-vulkan-radeon --noconfirm
 sudo pacman -S --needed libva-mesa-driver --noconfirm
 sudo pacman -S --needed lib32-libva-mesa-driver --noconfirm
 
-echo 'A TELEPÍTÉS BEFEJEZŐDÖTT, KÉREM, HOGY INDÍTSA ÚJRA SZÁMÍTÓGÉPÉT/LAPTOPJÁT!'
+echo 'A TELEPÍTÉS BEFEJEZŐDÖTT, KÉREM, HOGY INDÍTSA ÚJRA A SZÁMÍTÓGÉPÉT!'
