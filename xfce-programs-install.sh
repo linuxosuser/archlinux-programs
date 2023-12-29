@@ -107,8 +107,5 @@ sudo pacman -S --needed blueman --noconfirm
 sudo sed -i 's/#AutoEnable=true/AutoEnable=true/' /etc/bluetooth/main.conf
 sudo systemctl start bluetooth.service
 sudo systemctl enable bluetooth.service
-sudo pacman -S --needed tlp --noconfirm
-sudo systemctl start tlp.service
-sudo systemctl enable tlp.service
 
 echo 'A TELEPÍTÉS BEFEJEZŐDÖTT, KÉREM, HOGY INDÍTSA ÚJRA A SZÁMÍTÓGÉPÉT!'
