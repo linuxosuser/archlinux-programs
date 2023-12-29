@@ -1,11 +1,22 @@
 #!/bin/bash
 
-sudo pacman -S --needed pulseaudio --noconfirm
-sudo pacman -S --needed pulseaudio-alsa --noconfirm
-sudo pacman -S --needed pulseaudio-jack --noconfirm
-sudo pacman -S --needed libpulse --noconfirm
-sudo pacman -S --needed lib32-libpulse --noconfirm
-sudo pacman -S --needed alsa-utils --noconfirm
+sudo pacman -S --needed libpipewire --noconfirm
+sudo pacman -S --needed libwireplumber --noconfirm
+sudo pacman -S --needed pipewire --noconfirm
+sudo pacman -S --needed pipewire-alsa --noconfirm
+sudo pacman -S --needed pipewire-audio --noconfirm
+sudo pacman -S --needed pipewire-jack --noconfirm
+sudo pacman -S --needed pipewire-pulse --noconfirm
+sudo pacman -S --needed pipewire-roc --noconfirm
+sudo pacman -S --needed pipewire-session-manager --noconfirm
+sudo pacman -S --needed pipewire-v4l2 --noconfirm
+sudo pacman -S --needed pipewire-zeroconf --noconfirm
+sudo pacman -S --needed wireplumber --noconfirm
+sudo pacman -S --needed gst-plugin-pipewire --noconfirm
+sudo pacman -S --needed lib32-libpipewire --noconfirm
+sudo pacman -S --needed lib32-pipewire --noconfirm
+sudo pacman -S --needed lib32-pipewire-jack --noconfirm
+sudo pacman -S --needed lib32-pipewire-v4l2 --noconfirm
 sudo pacman -S --needed alsa-plugins --noconfirm
 sudo pacman -S --needed lib32-alsa-plugins --noconfirm
 sudo pacman -S --needed alsa-lib --noconfirm
@@ -19,10 +30,10 @@ sudo pacman -S --needed gst-plugins-base-libs --noconfirm
 sudo pacman -S --needed lib32-gst-plugins-base --noconfirm
 sudo pacman -S --needed lib32-gst-plugins-base-libs --noconfirm
 sudo pacman -S --needed gst-plugins-ugly --noconfirm
+sudo pacman -S --needed pavucontrol --noconfirm
 sudo pacman -S --needed gstreamer --noconfirm
 sudo pacman -S --needed lib32-gstreamer --noconfirm
 sudo pacman -S --needed gstreamer-vaapi --noconfirm
-sudo pacman -S --needed pavucontrol --noconfirm
 sudo pacman -S --needed qbittorrent --noconfirm
 sudo pacman -S --needed rhythmbox --noconfirm
 sudo pacman -S --needed smplayer --noconfirm
