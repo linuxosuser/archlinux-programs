@@ -85,6 +85,13 @@ sudo pacman -S --needed nss-mdns --noconfirm
 sudo pacman -S --needed gvfs-smb --noconfirm
 sudo systemctl start avahi-daemon.service
 sudo systemctl enable avahi-daemon.service
+sudo pacman -S --needed bluez --noconfirm
+sudo pacman -S --needed bluez-libs --noconfirm
+sudo pacman -S --needed bluez-utils --noconfirm
+sudo pacman -S --needed blueman --noconfirm
+sudo sed -i 's/#AutoEnable=true/AutoEnable=true/' /etc/bluetooth/main.conf
+sudo systemctl start bluetooth.service
+sudo systemctl enable bluetooth.service
 sudo pacman -S --needed adobe-source-sans-fonts --noconfirm
 sudo pacman -S --needed cantarell-fonts --noconfirm
 sudo pacman -S --needed noto-fonts --noconfirm
@@ -100,12 +107,5 @@ sudo pacman -S --needed arc-gtk-theme --noconfirm
 sudo pacman -S --needed arc-icon-theme --noconfirm
 sudo pacman -S --needed capitaine-cursors --noconfirm
 sudo pacman -S --needed archlinux-wallpaper --noconfirm
-sudo pacman -S --needed bluez --noconfirm
-sudo pacman -S --needed bluez-libs --noconfirm
-sudo pacman -S --needed bluez-utils --noconfirm
-sudo pacman -S --needed blueman --noconfirm
-sudo sed -i 's/#AutoEnable=true/AutoEnable=true/' /etc/bluetooth/main.conf
-sudo systemctl start bluetooth.service
-sudo systemctl enable bluetooth.service
 
 echo 'A TELEPÍTÉS BEFEJEZŐDÖTT, KÉREM, HOGY INDÍTSA ÚJRA A SZÁMÍTÓGÉPÉT!'
