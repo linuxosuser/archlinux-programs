@@ -89,7 +89,6 @@ sudo pacman -S --needed mesa-utils --noconfirm
 sudo pacman -S --needed lib32-mesa-utils --noconfirm
 sudo pacman -S --needed inxi --noconfirm
 sudo pacman -S --needed cups --noconfirm
-sudo pacman -S --needed print-manager --noconfirm
 sudo pacman -S --needed cups-pdf --noconfirm
 sudo pacman -S --needed ghostscript --noconfirm
 sudo pacman -S --needed gsfonts --noconfirm
@@ -97,6 +96,7 @@ sudo pacman -S --needed gutenprint --noconfirm
 sudo pacman -S --needed gtk3-print-backends --noconfirm
 sudo pacman -S --needed libcups --noconfirm
 sudo pacman -S --needed system-config-printer --noconfirm
+sudo pacman -S --needed print-manager --noconfirm
 sudo pacman -S --needed skanlite --noconfirm
 sudo systemctl start cups.service
 sudo systemctl enable cups.service
