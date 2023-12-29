@@ -34,6 +34,10 @@ sudo pacman -S --needed pavucontrol --noconfirm
 sudo pacman -S --needed gstreamer --noconfirm
 sudo pacman -S --needed lib32-gstreamer --noconfirm
 sudo pacman -S --needed gstreamer-vaapi --noconfirm
+sudo pacman -S --needed firefox --noconfirm
+sudo pacman -S --needed firefox-i18n-hu --noconfirm
+sudo pacman -S --needed firefox-ublock-origin --noconfirm
+sudo pacman -S --needed chromium --noconfirm
 sudo pacman -S --needed qbittorrent --noconfirm
 sudo pacman -S --needed rhythmbox --noconfirm
 sudo pacman -S --needed smplayer --noconfirm
