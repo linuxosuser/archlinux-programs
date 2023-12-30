@@ -12,3 +12,5 @@ sudo pacman -S --needed xdg-user-dirs --noconfirm
 sudo pacman -S --needed pipewire-jack --noconfirm
 sudo systemctl enable sddm.service
 sudo systemctl set-default graphical.target
+
+echo 'A TELEPÍTÉS BEFEJEZŐDÖTT, KÉREM, HOGY INDÍTSA ÚJRA A SZÁMÍTÓGÉPÉT!'
