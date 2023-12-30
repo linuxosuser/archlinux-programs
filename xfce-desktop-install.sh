@@ -20,3 +20,5 @@ sudo pacman -S --needed network-manager-applet --noconfirm
 sudo pacman -S --needed pipewire-jack --noconfirm
 sudo systemctl enable lightdm.service
 sudo systemctl set-default graphical.target
+
+echo 'A TELEPÍTÉS BEFEJEZŐDÖTT, KÉREM, HOGY INDÍTSA ÚJRA A SZÁMÍTÓGÉPÉT!'
