@@ -1,6 +1,9 @@
 #!/bin/bash
 
-sudo pacman -S --needed xorg --noconfirm
+sudo pacman -S --needed xorg-server --noconfirm
+sudo pacman -S --needed xorg-appres --noconfirm
+sudo pacman -S --needed xorg-xinit --noconfirm
+sudo pacman -S --needed xterm --noconfirm
 sudo pacman -S --needed pipewire-jack --noconfirm
 sudo pacman -S --needed plasma-meta --noconfirm
 sudo pacman -S --needed dolphin --noconfirm
