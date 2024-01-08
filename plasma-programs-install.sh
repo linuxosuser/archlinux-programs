@@ -110,9 +110,11 @@ sudo pacman -S --needed bluez-utils --noconfirm
 sudo sed -i 's/#AutoEnable=true/AutoEnable=true/' /etc/bluetooth/main.conf
 sudo systemctl start bluetooth.service
 sudo systemctl enable bluetooth.service
-sudo pacman -S --needed firewalld --noconfirm
-sudo systemctl start firewalld.service
-sudo systemctl enable firewalld.service
+sudo pacman -S --needed ufw --noconfirm
+sudo pacman -S --needed ufw-extras --noconfirm
+sudo pacman -S --needed gufw --noconfirm
+sudo systemctl start ufw.service
+sudo systemctl enable ufw.service
 sudo pacman -S --needed adobe-source-sans-fonts --noconfirm
 sudo pacman -S --needed cantarell-fonts --noconfirm
 sudo pacman -S --needed noto-fonts --noconfirm
